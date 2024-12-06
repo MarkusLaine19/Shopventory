@@ -1,0 +1,51 @@
+
+.title-header {
+    text-transform: capitalize;
+  }
+  
+  .item-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: auto;
+  }
+  
+  
+  .quantity-label {
+    min-width: 30px;
+    text-align: center;
+  }
+  
+  .delete-icon {
+    font-size: 22px;
+    min-width: 22px;
+    min-height: 22px;
+  }
+/* Ensure buttons are the same height */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-button {
+  height: 30px; /* Adjust height to match the other button's height */
+}
+
+.quantity-input {
+  width: 80px; /* Adjust width of the input to keep layout clean */
+  margin-right: 50px;
+}
+
+/* Optional: Adjust select width to make sure the layout stays neat */
+IonSelect {
+  flex-grow: 1;
+}
+  
